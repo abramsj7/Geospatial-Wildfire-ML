@@ -16,7 +16,7 @@ Date: March 2026
 
 This project explores whether satellite wildfire observations can be used to classify wildfire intensity and whether incorporating spatial relationships between nearby wildfire detections improves model performance.
 
-The analysis combines **machine learning** and **spatial statistics** to evaluate wildfire detection data across the contiguous United States.
+The analysis combines machine learning and spatial statistics to evaluate wildfire detection data across the contiguous United States.
 
 A baseline Random Forest model is compared with a spatially informed model that incorporates information from neighboring wildfire detections.
 
@@ -45,7 +45,7 @@ A binary classification label is created:
 - **high_fire = 0** → lower intensity fire  
 - **high_fire = 1** → higher intensity fire
 
-The dataset is filtered to include only the **contiguous United States (CONUS)**.
+The dataset is filtered to include only the contiguous United States (CONUS).
 
 ---
 
@@ -122,10 +122,10 @@ The analysis follows the following workflow:
 # Key Findings
 
 - Wildfire detections exhibit strong spatial clustering across the United States.
-- The initial baseline model revealed a **data leakage issue**, which was corrected.
-- Incorporating spatial information improved classification accuracy from approximately **0.78 to 0.82**.
+- The initial baseline model revealed a data leakage issue, which was corrected.
+- Incorporating spatial information improved classification accuracy from approximately 0.78 to 0.82.
 
-These results demonstrate that **spatial relationships between wildfire detections contain meaningful predictive information** that can improve machine learning models.
+These results demonstrate that spatial relationships between wildfire detections contain meaningful predictive information that can improve machine learning models.
 
 ---
 
