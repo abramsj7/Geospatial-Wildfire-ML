@@ -1,4 +1,4 @@
-# COMP-4449-Project-2
+# Geospatial Wildfire ML
 
 Spatial machine learning project analyzing NASA satellite wildfire detections to classify wildfire intensity and evaluate the impact of spatial features on model performance.
 
